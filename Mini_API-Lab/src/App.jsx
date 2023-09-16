@@ -1,14 +1,16 @@
-import React from 'react';
-import './App.css';
-import ProductList from './components/ProductList';
-
+import './App.css'
+import DisplayItems from './Components/DisplayItems'
+import Navbar from './Components/NavBar'
 function App() {
+
+
   return (
-    <div className="App">
-      <h1>Product List</h1>
-      <ProductList />
-    </div>
-  );
+    <>
+    <Navbar />
+    <h3>My Shop</h3>
+      <DisplayItems />
+    </>
+  )
 }
 
-export default App;
+export default App
